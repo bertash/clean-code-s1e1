@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.description {
+.descr {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.description img {
+.descr img {
   width: 100%;
 }
-.description .more-info {
+.descr .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.description { text-align: center;
+.descr { text-align: center;
 }
 }
-.main-page {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -144,11 +144,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-item input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+ul li.edit-item label {
   display:none;
 }
